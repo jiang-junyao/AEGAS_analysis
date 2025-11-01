@@ -1,5 +1,5 @@
 # Ageas: a transfer learning framework for in silico cell fate mapping from single-cell and spatial transcriptomics
-The manuscript for Ageas is currently in preparation, and the preprint and source code will be released upon reaching a significant milestone.
+### The manuscript for Ageas is currently in preparation, and the preprint and source code will be released upon reaching a significant milestone.
 
 
 Understanding cell fate decisions is fundamental to developmental biology and disease research. However, experimental lineage tracing approaches typically require genetic manipulation and are difficult to apply in complex systems or human tissues. Computational methods based on optimal transport often depend on multi-timepoint data, which are frequently unavailable in single-cell and spatial transcriptomic studies.
