@@ -8,3 +8,11 @@ Understanding cell fate decisions is fundamental to developmental biology and di
 Here, we present AGEAS, a transfer learning framework for in silico fate mapping single-cell or spatial transcriptomic data. AGEAS overcomes both experimental and computational limitations by transferring fate memory features from progeny to progenitor cells, enabling robust lineage reconstruction and lineage driver transcription factors identification without requiring temporal information or genetic barcoding. We benchmark AGEAS against single-cell lineage tracing and spatial transcriptomic datasets, where it achieves state-of-the-art performance. Applying AGEAS to a 3D human embryo model, we uncover fate biases of the epiblast along the anterior-posterior axis and identify SOX2 as a regional regulator of epiblast fate.
 
 ![workflow](image/workflow.png)
+
+### Apply Ageas on scRNA-seq data
+
+[Predict progenitor fate bias for IEP reprogramming](https://jiang-junyao.github.io/AEGAS_analysis/scRNA_reprogramming)
+
+### Apply Ageas on spatial transcriptome
+
+[Predict epiblast fate bias during human Embryogenesis](https://jiang-junyao.github.io/AEGAS_analysis/3D_human_embryo)
