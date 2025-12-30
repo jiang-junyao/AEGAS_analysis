@@ -1,10 +1,11 @@
-# Ageas: a transfer learning framework for in silico cell fate mapping from single-cell and spatial transcriptomics
+# Ageas enables time-free cell fate inference across single-cell and spatial multi-omics data
 ### The manuscript for Ageas is currently in preparation, and the preprint and source code will be released upon reaching a significant milestone.
 
+![workflow](image/workflow.png)
 
 Understanding cell fate decisions is fundamental to developmental biology and disease research. However, experimental lineage tracing requires genetic manipulation and is impractical in many systems. Computational approaches often rely on time-resolved measurements, which single-cell and spatial omics studies rarely provide. Here, we present Ageas, a time-free transfer learning framework for cell fate inference from single-cell and spatial multi-omics data. Ageas overcomes these limitations by learning fate memory from terminal cell populations and transferring this information to progenitor or intermediate cells, enabling fate bias inference from static molecular snapshots. To enable robust generalization across molecular modalities, Ageas employs a data-adaptive ensemble strategy with automated model selection. In benchmark datasets with lineage-traced scRNA-seq and scATAC-seq, as well as spatial transcriptomics data, Ageas achieves strong performance compared to existing methods. Applying Ageas to a 3D human embryo reveals a spatially organized anterior–posterior gradient of epiblast fate priming, with anterior epiblast cells biased toward ectodermal fates and posterior cells toward primitive streak–derived lineages, accompanied by regionally graded fate-associated regulatory programs. Together, these results establish Ageas as a general framework for decoding cell fate relationships from static molecular snapshots.
 
-Our work introduces a conceptual advance in cell fate inference and provides several key contributions:
+### Our work introduces a conceptual advance in cell fate inference and provides several key contributions:
 
 -**Time-Free Fate Inference through Transfer Learning**: Ageas reframes lineage prediction as a transfer of information from terminal cell states to their progenitors, eliminating the need for time-series or experimental lineage tracing. This approach allows cell fate bias to be decoded directly from a single snapshot of molecular data, opening new avenues to study developmental processes that cannot be sampled over time (such as human embryogenesis or clinical samples).
 
@@ -14,7 +15,7 @@ Our work introduces a conceptual advance in cell fate inference and provides sev
 
 -**Model-Based Interpretation of Fate-Associated Regulatory Programs**: Ageas identifies lineage-driving regulators through an interpretable explanation module and enables virtual cell–based in silico perturbation, providing a computational foundation for virtual cell analyses of fate decisions.
 
-![workflow](image/workflow.png)
+
 
 ### Apply Ageas on scRNA-seq data
 
